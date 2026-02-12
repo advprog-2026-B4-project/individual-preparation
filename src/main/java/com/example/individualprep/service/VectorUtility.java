@@ -21,8 +21,10 @@ public class VectorUtility {
     }
     
     public double dotProduct(double[] v1, double[] v2) {
-        // TODO: Implement me properly!
-        return 0.0;
+        double res = 0;
+        for (int i = 0; i < v1.length; i++)
+            res += v1[i] * v2[i];
+        return res;
     }
     
     public double norm(double[] v1) {
