@@ -29,6 +29,11 @@ sonar {
   properties {
     property "sonar.projectKey", "advprog-2026-B4-project_individual-preparation"
     property "sonar.organization", "advprog-2026-b4-project"
+    property "sonar.sources", "src/main/java"
+    property "sonar.tests", "src/test/java"
+    property "sonar.junit.reportPaths", "build/test-results/test"
+    property "sonar.java.binaries", "build/classes/java/main"
+    property "sonar.java.libraries", "${configurations.compileClasspath.asPath}"
   }
 }
 
