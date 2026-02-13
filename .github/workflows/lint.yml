@@ -2,7 +2,7 @@ name: Linter
 
 on:
   push:
-    branches: [ main, cicd ]
+    branches: [ main, cicd-yafi ]
   pull_request:
     branches: [ main, cicd ]
 
