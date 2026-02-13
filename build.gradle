@@ -33,7 +33,7 @@ sonar {
     property "sonar.tests", "src/test/java"
     property "sonar.junit.reportPaths", "build/test-results/test"
     property "sonar.java.binaries", "build/classes/java/main"
-    property "sonar.java.libraries", "${configurations.compileClasspath.asPath}"
+    property "sonar.java.test.binaries", "build/classes/java/test"
   }
 }
 
