@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class VectorUtility {
     
     public double[] add(double[] v1, double[] v2) {
-        // Basic Vector Validation (add dev branch)
+        // Basic Vector Validation
         if (v1 == null || v2 == null) {
             throw new IllegalArgumentException("Vectors cannot be null");
         }
