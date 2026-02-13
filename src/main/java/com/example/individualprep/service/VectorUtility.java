@@ -18,7 +18,7 @@ public class VectorUtility {
     public double[] multiply(double[] v1, int x) {
         double[] res = new double[v1.length];
         for (int i = 0; i < v1.length; i++) {
-             res[i] = v1[i]*x;
+            res[i] = v1[i]*x;
         }
         return res;
     }
